@@ -1,0 +1,14 @@
+{
+  "name": "simpleWebService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.6.1",
+    "mocha": "^2.3.4",
+    "test-console": "^1.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
