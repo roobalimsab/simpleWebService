@@ -6,5 +6,5 @@ app.use(express.static(__dirname + '/'));
 app.listen(8083);
 
 exports.logInfo = function() {
-    console.log("listening");
+    console.log("listening now");
 }
