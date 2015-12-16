@@ -1,0 +1,9 @@
+webservice1:
+ build: .
+
+nginxproxy:
+ build: nginx/.
+ links:
+  - webservice1
+ ports:
+  - 8089:80
