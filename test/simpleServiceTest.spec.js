@@ -7,6 +7,6 @@ describe('Test simple web service', function() {
         var inspect = stdout.inspect();
         index.logInfo();
         inspect.restore();
-        assert.deepEqual(inspect.output, ["listengjhgjhgjhging now\n"]);
+        assert.deepEqual(inspect.output, ["listening now\n"]);
     });
 });
